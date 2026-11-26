@@ -1,22 +1,22 @@
 {
-  "name": "prisma-relationships",
+  "name": "study-prisma-relationships",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-	"1": "tsx src/1-one-to-one.ts",
-	"2": "tsx src/2-one-to-many.ts",
-	"3": "tsx src/3-many-to-many.ts",
-	"4": "tsx src/4-many-to-many.ts"
+    "1": "tsx src/1-one-to-one.ts",
+    "2": "tsx src/2-one-to-many.ts",
+    "3": "tsx src/3-many-to-many.ts",
+    "4": "tsx src/4-many-to-many.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-	"@prisma/client": "4.4.0",
-	"prisma": "^4.4.0"
+    "@prisma/client": "4.4.0",
+    "prisma": "^4.4.0"
   },
   "devDependencies": {
     "@faker-js/faker": "^7.6.0",
